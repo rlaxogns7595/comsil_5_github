@@ -2,7 +2,6 @@
 #include "Stack.h"
 
 void prnMenu(){
-	cout << "master branch" << endl;
 	cout<<"*******************************************"<<endl;
 	cout<<"* 1. 삽입    2. 삭제    3. 출력   4. 종료 *"<<endl;
 	cout<<"*******************************************"<<endl;
@@ -14,7 +13,8 @@ int main(){
 	    int mode, selectNumber, tmpItem;
 		LinkedList<int> *p;
 		bool flag = false;
-
+		
+		cout << "master branch" << endl;
 		cout<<"자료구조 선택(1: Stack, Other: Linked List): ";
 		cin>>mode;
 						    
